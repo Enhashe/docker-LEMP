@@ -2,7 +2,7 @@ server {
         listen 80 default;
 		listen [::]:80;
 
-        server_name delta.sibcastrol.ru;
+        server_name DOMAIN.NAME;
 
         root /var/www/frontend/www;
 

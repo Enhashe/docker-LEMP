@@ -2,9 +2,9 @@ server {
 		listen 80;
 		listen [::]:80;
 
-#       server_name cp.sibcastrol.ru;
+#       server_name cp.DOMAIN.NAME;
 		
-		server_name deltacp.sibcastrol.ru;
+		server_name deltacp.DOMAIN.NAME;
 		
 		root /var/www/backend/www;
 	   

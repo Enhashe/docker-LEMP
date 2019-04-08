@@ -45,7 +45,7 @@ services:
         environment: 
             MYSQL_USER: $MYSQLUSER
             MYSQL_PASSWORD: $MYSQLPASSWORD
-            MYSQL_DATABASE: sibcastrol
+            MYSQL_DATABASE: dbname
             MYSQL_ROOT_PASSWORD: $MYSQLROOTPASSWORD
     memcached:
         image: memcached
@@ -74,7 +74,7 @@ services:
         links: 
             - mysql:mysql
         environment: 
-            PMA_ABSOLUTE_URI: https://deltapma.sibcastrol.ru
+            PMA_ABSOLUTE_URI: https://SITE.URL
             PMA_HOST: mysql
             MYSQL_USERNAME: root
             MYSQL_ROOT_PASSWORD: $MYSQLROOTPASSWORD
